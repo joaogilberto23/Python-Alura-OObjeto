@@ -55,10 +55,22 @@ print(cliente.nome)
 print(conta.limite)
 conta.limite = 5000.0
 print(conta.limite)
+print(conta.saldo)
+
+print(conta.saldo)
+print(conta.limite)
+conta.sacar(1000)
+print(conta.saldo)
+
+# Testando os métodos estáticos
+
+print(conta.cod_banco())
+print(conta.codigos_bancos())
+
+codigos = conta.codigos_bancos()
+print(codigos['Caixa'])
 
 """
-
-
 
 
 
